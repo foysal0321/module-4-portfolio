@@ -1,3 +1,85 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+      margin: 0; 
+}
 h1{
-    color: aqua;
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+section{
+    display: flex;
+}
+section img{
+    width: 85%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 8%;
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#mid-banner{
+    padding: 20px;
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+.half-width.dream{
+    padding-right: 10%;
+}
+#mid-banner img{
+    width: 100%;
+}
+.experinc{
+    display: flex;
+    padding: 40px;
+   
+}
+ .experinc h3{
+    color: orange;
+}
+
+.experinc .text1,.text2{
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow:10px 10px 40px gray;
+    padding-left: 20px;
+    padding: 20px;
+    height: 330px;
+    border-radius: 5px;
+}
+.experinc h2{
+    font-size: 35px;
+}
+.experinc .text2{
+  border-left: 7px solid blue;
+
+}
+.experinc .text1{
+    border-left: 7px solid tomato;
+  
+  }
+#buttom-banner{
+height: 700px;
+background-image: url(images/exp-bg.png);
+background-position: left;
+background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    padding: 12px;
 }
